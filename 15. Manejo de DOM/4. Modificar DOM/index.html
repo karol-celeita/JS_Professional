@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <title>Eventos</title>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Karol Celeita</a>
+        </div>
+     </div>  <!--fin del container fluid  -->
+</nav>
+
+<div class="container">
+    <div class="jumbotron">
+        
+        <!-- Obtener elementos por id -->
+        <!-- Podemos modificar el texto por medio del id en JS -->
+        <h2 class="display-2" id="title">Crea tu curso</h2> 
+        <p class="description_container" id="description">
+            Listado de cursos
+        </p>
+   
+
+        <form id='course-form'>
+            <div class="form-group">
+              <input type="text" class="form-control" id="title-form" placeholder="Titulo curso">
+            </div>
+  
+            <div class="form-group">
+              <input type="text" class="form-control" id="description-form" placeholder="Description curso">
+              <small id="descriptionHelp" class="form-text text-muted">Escribe una breve descripcion</small>
+            </div>
+
+            <div class="form-group">
+                <label for="">
+                    <input type="checkbox" id="checkbox">
+                    Premium
+                </label>
+            </div>
+
+            <button type="submit" id="create-course" class="btn btn-info">Crear curso</button> <br>
+          </form>
+
+          <div class="row">
+              <br>
+            <!-- cards  -->
+
+                    <!-- fin card  -->
+          </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <p class="copyright text'muted">&copy; KarolCeleita</p>
+        </div>
+    </div>
+</footer>
+    
+    <script src="apps.js"></script>
+</body>
+</html>

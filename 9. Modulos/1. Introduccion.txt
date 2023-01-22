@@ -1,0 +1,15 @@
+
+
+Es la forma de dividir y exportar librerias en JS, antes se hacia por medio del scope para usar la funcionalidad en otros archivos
+las librerias agregaban una variable al alcance global, asi se hizo famoso el signo de dolar $ en JS, gracias a que JQuery lo agregaba al
+scope global y era el que se usaba. 
+
+Al estar las variables  globales, habian varias falencias porque se podian asignar variables por error o era dificil eliminar librerias
+
+Los modulos son un estandar en JS
+
+Los archivos que definen un modulo terminan en .mjs , es una buena práctica
+
+Un modulo se diferencia de un archivo Js porque importa o exporta codigo
+
+Donde mas se pueden usar los modulos es en el front.end o en compiladores como webpack

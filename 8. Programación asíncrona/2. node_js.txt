@@ -1,0 +1,15 @@
+Para usar las funciones asincronas usamos un entorno de ejecucion que será node.js
+asi usaremos www.nodejs.dev
+
+1. Descargamos el instalador
+2. Seguimos las instrucciones e instalamos
+3. Abrimos VS Code y abrimos una terminal ,
+   alli escribimos node -v para validar que se instalo correctamente
+
+   PS C:\Users\buho\Documents\JS Professional> node -v
+    v16.14.2
+
+4. Instalamos la extension Code Runner
+5. Se debio haber instalado un boton de play en la esquina superior derecha
+
+6. Si no se puede configurar, usamos replit.com para usar la consola online

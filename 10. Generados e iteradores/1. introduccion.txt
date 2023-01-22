@@ -1,0 +1,4 @@
+
+Un generador es una forma de recorrer una coleccion, se usan para recorrer grandes volumenes de datos
+- Mejoran el rendimiento en la memoria virtual
+- Es cualquier elelemnto que use un metodo next y retorne un objeto value y dom usa un iterador.
